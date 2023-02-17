@@ -19,4 +19,4 @@ upgrade-go:
 	sudo tar -C /usr/local -xzf go$(GO_VERSION).darwin-arm64.tar.gz
 	rm go$(GO_VERSION).darwin-arm64.tar.gz
 build:
-	go build -o api cmd/main.go
+	go build -o api ch1/cmd/main.go
